@@ -1,0 +1,127 @@
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: darkcyan;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  color: black;
+}
+
+a:any-link {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.page-header {
+  background-color: darkgray;
+}
+
+.nav-item,
+.hover {
+  color: darkcyan;
+}
+
+.hero-image {
+  background-color: #303b43;
+  background-image: url(assets/lfz-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+  height: 350px;
+}
+
+.student-name {
+  font-size: 80px;
+  background-color: darkcyan;
+  color: white;
+  border-top: 5px double white;
+  border-bottom: 5px double white;
+}
+
+.about-section {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.about-image {
+  max-height: 80%;
+  border: 6px solid slategray;
+}
+
+.text-align-reset {
+  text-align: initial;
+}
+
+.tech-section {
+  background-color: gainsboro;
+}
+
+.projects-section {
+  background-color: whitesmoke;
+}
+
+.contact-section {
+  background-color: gainsboro;
+}
+
+.black-text {
+  color: black;
+  font-size: medium;
+  justify-content: space-evenly;
+}
+
+.list-style {
+  white-space: nowrap;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 15px;
+}
